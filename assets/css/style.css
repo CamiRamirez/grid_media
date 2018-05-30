@@ -1,0 +1,56 @@
+ /* .container{
+  background-color: rgb(0, 255, 255);
+  height:600px;
+}
+
+.row {
+  border: 2px solid red;
+  height: 100px;
+}
+*/
+img{
+  width: 100%;
+}
+
+.titulo{
+  text-align: center;
+  padding: 4%;
+  font-family: 'pacifico', cursive;
+  font-size: 80px;
+}
+
+.primera_seccion{
+  text-align: justify;
+  padding: 5%;
+  font-size: 20px;
+}
+
+.segunda_seccion{
+  text-align: justify;
+  padding: 5%;
+  font-size: 20px;
+}
+
+body{
+  background-color: aquamarine;
+}
+
+@media (min-width: 200px) and (max-width: 424px) {
+  [class*="col-"]{
+    width: 100%;
+    text-align: center;
+  }
+  .gatitocongorro{
+    content: url(../img/list_640px.jpg);
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  [class*="col-"]{
+    width: 100%;
+    text-align: center;
+  }
+  .gatitocongorro{
+    content: url(../img/img_por_que_las_gatas_se_comen_a_sus_gatitos_recien_nacidos_22597_600.jpg);
+  }
+}
